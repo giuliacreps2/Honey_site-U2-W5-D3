@@ -9,6 +9,7 @@ h6,
 p,
 button {
   font-family: "Montserrat", sans-serif;
+  color: #742305;
 }
 
 ol,
@@ -27,7 +28,6 @@ ul {
 header {
   background-color: #fef7e2;
   padding: 20px;
-  width: max-content;
 }
 
 ul {
@@ -39,7 +39,6 @@ ul {
 
 button {
   font-weight: 700;
-  color: #742305;
   background-color: #ffdf80;
   padding: 15px;
   border-radius: 50px;
@@ -55,4 +54,25 @@ button {
 #bee img {
   width: 50px;
   margin-right: 12px;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 48px;
+}
+
+.shop {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+#shop_img {
+  width: 300px;
 }
