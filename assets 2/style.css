@@ -64,15 +64,59 @@ h1 {
 .shop {
   padding: 0 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+}
+
+article {
+  border-radius: 20px;
+  background-color: #fef7e2;
+  margin-bottom: 20px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 
 #shop_img {
   width: 300px;
+  border-radius: 20px 20px 0 0;
+}
+
+.kg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 650px) {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
 }
